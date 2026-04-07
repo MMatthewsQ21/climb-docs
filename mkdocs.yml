@@ -1,5 +1,5 @@
 site_name: CLIMB | Cloud Infrastructure for Microbial Bioinformatics
-site_url: https://mmatthewsq21.github.io/climb-docs/
+site_url: https://mmatthewsq21.github.io/climb-docs/ # update as required
 theme:
   name: material
   logo: assets/logo-square_CLIMB-BIG-DATA.png
