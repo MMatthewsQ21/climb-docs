@@ -40,3 +40,11 @@ From Bryn, you can manage your team, it's resources, the S3 buckets and your not
 + [**CLIMB TRE**](https://climb-tre.github.io/)
 
     For teams/organisations who use the CLIMB Trusted Research Environment (CLIMB-TRE).
+
+---
+
+## **Archive**
+
++ [**Previous CLIMB Documentation**](../6.Archive/index.md)
+
+    For archived CLIMB documentation. However, for up to date information use the resources above.

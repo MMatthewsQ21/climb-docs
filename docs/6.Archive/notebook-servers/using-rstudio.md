@@ -1,24 +1,11 @@
----
-title: RStudio
----
+# Using RStudio
 
-# **Using RStudio**
-
----
+!!! warning
+    This is the archived documentation, for up to date information see our [**new Documentation**](../../4.Documentation/index.md).
 
 RStudio is an integrated development environment (IDE) specifically designed for the R programming language. It provides a user-friendly interface that simplifies the process of coding, debugging, data visualization, and data analysis using R. RStudio is available in both open-source and commercial editions.
 
-RStudio was originally an interface to interactive with `R` programming language. Since July 2022, it is now known as Posit as they support other languages such as Python. The main feature remains the same, to easily edit scripts and view input/output files. Our version of RStudio only supports the `R` programming language.
-
-This page will guide you through the basics of jupyter notebooks with the following sections:
-
-+ [**Features of RStudio**](4.1.5.rstudio.md#features-of-rstudio)
-+ [**How to start ?**](4.1.5.rstudio.md#how-to-start)
-+ [**Installing packages**](4.1.5.rstudio.md#installing-packages)
-
----
-
-## **Features of RStudio**
+RStudio was originally an interface to interactive with `R` programming language. Since July 2022, it is now known as Posit as they support other languages such as Python. The main feature remains the same, to easily edit scripts and view input/output files. Our version of RStudio only supports the `R` programming language. Here are the top five features of RStudio:
 
 * **Intuitive Code Editor**: RStudio provides an intuitive code editor with syntax highlighting, code completion, and code folding. These features make it easier to write, edit, and navigate through R code, reducing errors and improving coding efficiency.
 * **Interactive Data Visualization**: RStudio has an integrated plot viewer that supports interactive and high-quality data visualizations using popular R packages like ggplot2 and plotly. Users can easily explore and customize visualizations to gain insights from data.
@@ -29,10 +16,7 @@ This page will guide you through the basics of jupyter notebooks with the follow
 If you are not familiar with `R` or RStudio you can find more information here: [https://education.rstudio.com/learn/beginner/ 
 ](https://education.rstudio.com/learn/beginner/ 
 )
-
----
-
-## **How to start?**
+## How to start?
 
 Both `R` and RStudio are already installed for you. You will find them under the “Notebooks” section of the Main Work Area. 
 
@@ -51,9 +35,7 @@ You can Select “File” and “New File” to create and open a variety of fil
 
 ![RStudio](../img/r-new-file.png)
 
----
-
-## **Installing packages**
+## Installing packages
 
 You can install packages which provide additional features and documentation to the base `R` packages. You can do this via the GUI or via the terminal like so:
 
@@ -85,10 +67,8 @@ ggplot(mpg, aes(displ, hwy, colour = class)) +
 
 ![RStudio](../img/r-in-action.png)
 
-!!! info
-        You can find information on installed R packages on your home dir. Please be aware that you only have 20GB of space here !
 
-### **Other useful packages**
+## Other useful packages
 
 * [`BactDating`](https://xavierdidelot.github.io/BactDating/) – time scaled phylogenies
 * `ggtree` – visualising phylogenetic trees
@@ -102,9 +82,8 @@ ggplot(mpg, aes(displ, hwy, colour = class)) +
 
 There are many "cheat sheets" available for [individual packages which you can find here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization-2.1.pdf).
 
----
 
-## **How to upload file to Rstudio from local machine**
+## How to upload file to Rstudio from local machine
 
 1. Open the Rstudio session.
 ![Rstudio](../img/rstudio.png)
@@ -122,9 +101,3 @@ There are many "cheat sheets" available for [individual packages which you can f
 
 5. Now you can see the file in the **Output** section.
 ![Rstudio](../img/rstudio-uploaded-files.png)
-
----
-
-# **What is next ?**
-
-Once you know some RStudio basics, you can also try using the [**Terminal**](4.1.3.terminal.md), [**Jupyter notebooks**](4.1.4.jupyter-notebook.md) and [**Nextflow**](4.1.6.nextflow.md).
