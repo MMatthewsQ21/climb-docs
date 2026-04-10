@@ -15,3 +15,7 @@ There are multiple locations to store, transfer and utilise data within CLIMB.
 + [**S3 Buckets**](4.2.2.s3-buckets.md)
 
     Find out more about how to create and use S3 Buckets.
+
++ [**Data transfer into S3 buckets**](4.2.3.data-transfer-local.md)
+
+    Find out more about how data can be transferred from your local machine into S3 buckets.
